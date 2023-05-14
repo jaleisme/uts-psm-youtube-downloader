@@ -1,6 +1,15 @@
 # Python YouTube MP3 Downloader
-
 ###### https://github.com/jaleisme/uts-psm-youtube-downloader
+
+```mermaid
+  graph TD;
+      A[Run the CLI] --> B[Paste YouTube link];
+      B --> C[Trim the audio?];
+      C -- yes --> D[Input the seconds];
+      C -- No --> E[Compress the audio]
+      D --> E;
+      E --> F[enjoy the result!];
+```
 
 ###### Meet Python YouTube MP3 Downloader, where you can download audio from your desired YouTube video using python.  Here are packages that were used in making this project:
 ###### 1. PyTube -> Python library to access YouTube API.
